@@ -1,22 +1,22 @@
-'use client';
-import { Navbar, Nav } from 'rsuite';
-import PeoplesCostomizeIcon from '@rsuite/icons/PeoplesCostomize';
-import PageEndIcon from '@rsuite/icons/PageEnd';
+"use client";
+import { Navbar, Nav } from "rsuite";
+import PeoplesCostomizeIcon from "@rsuite/icons/PeoplesCostomize";
+import PageEndIcon from "@rsuite/icons/PageEnd";
 // import 'bootstrap/dist/css/bootstrap.css';
-import './navbarLandingPage.styles.css';
+import "./navbarLandingPage.styles.css";
 // import "/Users/caesarresyaxavier/CODE/apollo-project-nextjs/node_modules/rsuite/dist/rsuite.css";
 
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 const NavbarLandingPage = () => {
   const router = useRouter();
 
   const handleLogin = (event) => {
-    router.push('/authentication/login');
+    router.push("/authentication/login");
     // setIsLoading(true);
   };
 
   const handleRegister = (event) => {
-    router.push('/authentication/register');
+    router.push("/authentication/register");
     // setIsLoading(true);
   };
   return (
