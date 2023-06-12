@@ -1,0 +1,21 @@
+.refresh {
+  margin-top: -3rem;
+}
+
+.refresh img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.refresh img:hover {
+  background-color: #C4C4C4;
+  border-radius: 30px;
+}
+
+@media (max-width: 576px) {
+  .refresh img {
+    margin-top: 3rem;
+  }
+}

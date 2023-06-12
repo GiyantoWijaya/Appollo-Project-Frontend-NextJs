@@ -1,0 +1,23 @@
+/* .bodyRegister {
+  height: 100%;
+} */
+
+.bodyRegister {
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  background-color: #ffffff;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+.form-floating {
+  margin-bottom: 10px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}

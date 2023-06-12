@@ -1,0 +1,155 @@
+/* most_popular section */
+html {
+  scroll-behavior: smooth;
+}
+body,
+body * {
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--dark);
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.8em;
+  color: var(--light);
+}
+:root {
+  --white: #fff;
+  --pink: #e75e8d;
+  --dark: #0c0d14;
+  --light: #1f2030;
+  --yellow: yellow;
+}
+.title {
+  padding: 30px 0;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #e75e8d;
+}
+
+.lighter-background {
+  background-color: var(--dark);
+  border-radius: 25px;
+}
+.block {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 30px 20px 20px 20px;
+}
+.block img {
+  width: 180px;
+  height: 150px;
+  border-radius: 35px 20px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+.text-white {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+}
+.text-white > i {
+  display: flex;
+  justify-content: center;
+  float: right;
+  color: yellow;
+}
+.text-white i > span {
+  margin-left: 5px;
+  margin-top: 3px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--white);
+}
+.text-no-bold {
+  font-size: 16px;
+}
+.text-no-bold > i {
+  display: flex;
+  justify-content: center;
+  float: right;
+  color: #e75e8d;
+}
+.text-no-bold i > span {
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--white);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center > .button {
+  display: flex;
+  width: 180px;
+  margin-top: -25px;
+  text-align: center;
+  z-index: 10;
+}
+
+/* button */
+
+.play-button {
+  width: 30px;
+  height: max-content;
+  position: absolute;
+}
+.btn-small {
+  max-width: 40px;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+/* clips section */
+
+.clips .block-content .block .text > .text-white {
+  font-weight: 600;
+  margin-top: 15px;
+}
+.clips .block-content .block .text > .text-white i {
+  color: var(--pink);
+}
+.clips .block-content .block .text > .text-white span {
+  font-weight: 100;
+}
+.clips > .center {
+  margin-top: 70px;
+}
+.clips .center > .button {
+  text-decoration: none;
+}
+.black-background {
+  /* width: 100%; */
+  margin-top: 50px;
+  padding: 10px 60px 50px 60px;
+}
+.block {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 30px 20px 20px 20px;
+}
+.lighter-background {
+  background-color: var(--dark);
+  border-radius: 25px;
+}
+.image-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
